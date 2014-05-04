@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testapp.app" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="com.estimote.sdk.service.BeaconService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.testapp.app.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.testapp.app.DistanceBeaconActivity"
+            android:label="@string/title_activity_distance_beacon" >
+        </activity>
+        <activity
+            android:name="com.example.testapp.app.AllDemosActivity"
+            android:label="@string/title_activity_all_demos" >
+        </activity>
+        <activity
+            android:name="com.example.testapp.app.SweetSpotActivity"
+            android:label="@string/title_activity_sweet_spot" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
