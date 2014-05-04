@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B70266C191604000070B8B6 /* UITimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70266B191604000070B8B6 /* UITimerController.m */; };
+		8BC49AA51915C04D00287811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC49AA41915C04D00287811 /* Foundation.framework */; };
+		8BC49AA71915C04D00287811 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC49AA61915C04D00287811 /* CoreGraphics.framework */; };
+		8BC49AA91915C04D00287811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC49AA81915C04D00287811 /* UIKit.framework */; };
+		8BC49AAF1915C04D00287811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BC49AAD1915C04D00287811 /* InfoPlist.strings */; };
+		8BC49AB11915C04D00287811 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC49AB01915C04D00287811 /* main.m */; };
+		8BC49AB51915C04D00287811 /* SweetSpotAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC49AB41915C04D00287811 /* SweetSpotAppDelegate.m */; };
+		8BC49AB81915C04D00287811 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC49AB61915C04D00287811 /* Main_iPhone.storyboard */; };
+		8BC49ABB1915C04D00287811 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC49AB91915C04D00287811 /* Main_iPad.storyboard */; };
+		8BC49ABE1915C04D00287811 /* SweetSpotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC49ABD1915C04D00287811 /* SweetSpotViewController.m */; };
+		8BC49AC01915C04D00287811 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC49ABF1915C04D00287811 /* Images.xcassets */; };
+		8BC49AC71915C04D00287811 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC49AC61915C04D00287811 /* XCTest.framework */; };
+		8BC49AC81915C04D00287811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC49AA41915C04D00287811 /* Foundation.framework */; };
+		8BC49AC91915C04D00287811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC49AA81915C04D00287811 /* UIKit.framework */; };
+		8BC49AD11915C04D00287811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BC49ACF1915C04D00287811 /* InfoPlist.strings */; };
+		8BC49AD31915C04D00287811 /* SweetSpotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC49AD21915C04D00287811 /* SweetSpotTests.m */; };
+		8BC49AE81915C29600287811 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC49AE71915C29600287811 /* CoreLocation.framework */; };
+		8BC49AEA1915C2A100287811 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC49AE91915C2A100287811 /* SystemConfiguration.framework */; };
+		8BC49AF31915C49700287811 /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC49AF21915C49700287811 /* libEstimoteSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BC49ACA1915C04D00287811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BC49A991915C04D00287811 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BC49AA01915C04D00287811;
+			remoteInfo = SweetSpot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B70266A191604000070B8B6 /* UITimerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITimerController.h; sourceTree = "<group>"; };
+		8B70266B191604000070B8B6 /* UITimerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITimerController.m; sourceTree = "<group>"; };
+		8BC49AA11915C04D00287811 /* SweetSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC49AA41915C04D00287811 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BC49AA61915C04D00287811 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BC49AA81915C04D00287811 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BC49AAC1915C04D00287811 /* SweetSpot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SweetSpot-Info.plist"; sourceTree = "<group>"; };
+		8BC49AAE1915C04D00287811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BC49AB01915C04D00287811 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BC49AB21915C04D00287811 /* SweetSpot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SweetSpot-Prefix.pch"; sourceTree = "<group>"; };
+		8BC49AB31915C04D00287811 /* SweetSpotAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SweetSpotAppDelegate.h; sourceTree = "<group>"; };
+		8BC49AB41915C04D00287811 /* SweetSpotAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SweetSpotAppDelegate.m; sourceTree = "<group>"; };
+		8BC49AB71915C04D00287811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8BC49ABA1915C04D00287811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8BC49ABC1915C04D00287811 /* SweetSpotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SweetSpotViewController.h; sourceTree = "<group>"; };
+		8BC49ABD1915C04D00287811 /* SweetSpotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SweetSpotViewController.m; sourceTree = "<group>"; };
+		8BC49ABF1915C04D00287811 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BC49AC51915C04D00287811 /* SweetSpotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetSpotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC49AC61915C04D00287811 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8BC49ACE1915C04D00287811 /* SweetSpotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SweetSpotTests-Info.plist"; sourceTree = "<group>"; };
+		8BC49AD01915C04D00287811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BC49AD21915C04D00287811 /* SweetSpotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SweetSpotTests.m; sourceTree = "<group>"; };
+		8BC49ADC1915C1B400287811 /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEstimoteSDK.a; path = "../../../../Desktop/GameHack/iOS-SDK/EstimoteSDK/libEstimoteSDK.a"; sourceTree = "<group>"; };
+		8BC49AE71915C29600287811 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8BC49AE91915C2A100287811 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8BC49AED1915C49700287811 /* ESTBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeacon.h; sourceTree = "<group>"; };
+		8BC49AEE1915C49700287811 /* ESTBeaconDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconDefinitions.h; sourceTree = "<group>"; };
+		8BC49AEF1915C49700287811 /* ESTBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconManager.h; sourceTree = "<group>"; };
+		8BC49AF01915C49700287811 /* ESTBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconRegion.h; sourceTree = "<group>"; };
+		8BC49AF11915C49700287811 /* ESTBeaconUpdateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconUpdateInfo.h; sourceTree = "<group>"; };
+		8BC49AF21915C49700287811 /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEstimoteSDK.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BC49A9E1915C04D00287811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC49AF31915C49700287811 /* libEstimoteSDK.a in Frameworks */,
+				8BC49AEA1915C2A100287811 /* SystemConfiguration.framework in Frameworks */,
+				8BC49AE81915C29600287811 /* CoreLocation.framework in Frameworks */,
+				8BC49AA71915C04D00287811 /* CoreGraphics.framework in Frameworks */,
+				8BC49AA91915C04D00287811 /* UIKit.framework in Frameworks */,
+				8BC49AA51915C04D00287811 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC49AC21915C04D00287811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC49AC71915C04D00287811 /* XCTest.framework in Frameworks */,
+				8BC49AC91915C04D00287811 /* UIKit.framework in Frameworks */,
+				8BC49AC81915C04D00287811 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BC49A981915C04D00287811 = {
+			isa = PBXGroup;
+			children = (
+				8BC49AAA1915C04D00287811 /* SweetSpot */,
+				8BC49ACC1915C04D00287811 /* SweetSpotTests */,
+				8BC49AA31915C04D00287811 /* Frameworks */,
+				8BC49AA21915C04D00287811 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC49AA21915C04D00287811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC49AA11915C04D00287811 /* SweetSpot.app */,
+				8BC49AC51915C04D00287811 /* SweetSpotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BC49AA31915C04D00287811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BC49AE91915C2A100287811 /* SystemConfiguration.framework */,
+				8BC49AE71915C29600287811 /* CoreLocation.framework */,
+				8BC49ADC1915C1B400287811 /* libEstimoteSDK.a */,
+				8BC49AA41915C04D00287811 /* Foundation.framework */,
+				8BC49AA61915C04D00287811 /* CoreGraphics.framework */,
+				8BC49AA81915C04D00287811 /* UIKit.framework */,
+				8BC49AC61915C04D00287811 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BC49AAA1915C04D00287811 /* SweetSpot */ = {
+			isa = PBXGroup;
+			children = (
+				8BC49AEB1915C49700287811 /* EstimoteSDK */,
+				8BC49AB31915C04D00287811 /* SweetSpotAppDelegate.h */,
+				8BC49AB41915C04D00287811 /* SweetSpotAppDelegate.m */,
+				8BC49AB61915C04D00287811 /* Main_iPhone.storyboard */,
+				8BC49AB91915C04D00287811 /* Main_iPad.storyboard */,
+				8BC49ABC1915C04D00287811 /* SweetSpotViewController.h */,
+				8BC49ABD1915C04D00287811 /* SweetSpotViewController.m */,
+				8BC49ABF1915C04D00287811 /* Images.xcassets */,
+				8BC49AAB1915C04D00287811 /* Supporting Files */,
+				8B70266A191604000070B8B6 /* UITimerController.h */,
+				8B70266B191604000070B8B6 /* UITimerController.m */,
+			);
+			path = SweetSpot;
+			sourceTree = "<group>";
+		};
+		8BC49AAB1915C04D00287811 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BC49AAC1915C04D00287811 /* SweetSpot-Info.plist */,
+				8BC49AAD1915C04D00287811 /* InfoPlist.strings */,
+				8BC49AB01915C04D00287811 /* main.m */,
+				8BC49AB21915C04D00287811 /* SweetSpot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BC49ACC1915C04D00287811 /* SweetSpotTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BC49AD21915C04D00287811 /* SweetSpotTests.m */,
+				8BC49ACD1915C04D00287811 /* Supporting Files */,
+			);
+			path = SweetSpotTests;
+			sourceTree = "<group>";
+		};
+		8BC49ACD1915C04D00287811 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BC49ACE1915C04D00287811 /* SweetSpotTests-Info.plist */,
+				8BC49ACF1915C04D00287811 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BC49AEB1915C49700287811 /* EstimoteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8BC49AEC1915C49700287811 /* Headers */,
+				8BC49AF21915C49700287811 /* libEstimoteSDK.a */,
+			);
+			path = EstimoteSDK;
+			sourceTree = "<group>";
+		};
+		8BC49AEC1915C49700287811 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8BC49AED1915C49700287811 /* ESTBeacon.h */,
+				8BC49AEE1915C49700287811 /* ESTBeaconDefinitions.h */,
+				8BC49AEF1915C49700287811 /* ESTBeaconManager.h */,
+				8BC49AF01915C49700287811 /* ESTBeaconRegion.h */,
+				8BC49AF11915C49700287811 /* ESTBeaconUpdateInfo.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BC49AA01915C04D00287811 /* SweetSpot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC49AD61915C04D00287811 /* Build configuration list for PBXNativeTarget "SweetSpot" */;
+			buildPhases = (
+				8BC49A9D1915C04D00287811 /* Sources */,
+				8BC49A9E1915C04D00287811 /* Frameworks */,
+				8BC49A9F1915C04D00287811 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweetSpot;
+			productName = SweetSpot;
+			productReference = 8BC49AA11915C04D00287811 /* SweetSpot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BC49AC41915C04D00287811 /* SweetSpotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC49AD91915C04D00287811 /* Build configuration list for PBXNativeTarget "SweetSpotTests" */;
+			buildPhases = (
+				8BC49AC11915C04D00287811 /* Sources */,
+				8BC49AC21915C04D00287811 /* Frameworks */,
+				8BC49AC31915C04D00287811 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC49ACB1915C04D00287811 /* PBXTargetDependency */,
+			);
+			name = SweetSpotTests;
+			productName = SweetSpotTests;
+			productReference = 8BC49AC51915C04D00287811 /* SweetSpotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BC49A991915C04D00287811 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SweetSpot;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = burbankgames;
+				TargetAttributes = {
+					8BC49AC41915C04D00287811 = {
+						TestTargetID = 8BC49AA01915C04D00287811;
+					};
+				};
+			};
+			buildConfigurationList = 8BC49A9C1915C04D00287811 /* Build configuration list for PBXProject "SweetSpot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BC49A981915C04D00287811;
+			productRefGroup = 8BC49AA21915C04D00287811 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BC49AA01915C04D00287811 /* SweetSpot */,
+				8BC49AC41915C04D00287811 /* SweetSpotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BC49A9F1915C04D00287811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC49ABB1915C04D00287811 /* Main_iPad.storyboard in Resources */,
+				8BC49AC01915C04D00287811 /* Images.xcassets in Resources */,
+				8BC49AB81915C04D00287811 /* Main_iPhone.storyboard in Resources */,
+				8BC49AAF1915C04D00287811 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC49AC31915C04D00287811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC49AD11915C04D00287811 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BC49A9D1915C04D00287811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC49AB11915C04D00287811 /* main.m in Sources */,
+				8B70266C191604000070B8B6 /* UITimerController.m in Sources */,
+				8BC49ABE1915C04D00287811 /* SweetSpotViewController.m in Sources */,
+				8BC49AB51915C04D00287811 /* SweetSpotAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC49AC11915C04D00287811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC49AD31915C04D00287811 /* SweetSpotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BC49ACB1915C04D00287811 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BC49AA01915C04D00287811 /* SweetSpot */;
+			targetProxy = 8BC49ACA1915C04D00287811 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BC49AAD1915C04D00287811 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC49AAE1915C04D00287811 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BC49AB61915C04D00287811 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC49AB71915C04D00287811 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8BC49AB91915C04D00287811 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC49ABA1915C04D00287811 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8BC49ACF1915C04D00287811 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC49AD01915C04D00287811 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BC49AD41915C04D00287811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../EstimoteSDK/Headers",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BC49AD51915C04D00287811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BC49AD71915C04D00287811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SweetSpot/SweetSpot-Prefix.pch";
+				INFOPLIST_FILE = "SweetSpot/SweetSpot-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SweetSpot/EstimoteSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BC49AD81915C04D00287811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SweetSpot/SweetSpot-Prefix.pch";
+				INFOPLIST_FILE = "SweetSpot/SweetSpot-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SweetSpot/EstimoteSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8BC49ADA1915C04D00287811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SweetSpot.app/SweetSpot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SweetSpot/SweetSpot-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SweetSpotTests/SweetSpotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8BC49ADB1915C04D00287811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SweetSpot.app/SweetSpot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SweetSpot/SweetSpot-Prefix.pch";
+				INFOPLIST_FILE = "SweetSpotTests/SweetSpotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BC49A9C1915C04D00287811 /* Build configuration list for PBXProject "SweetSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC49AD41915C04D00287811 /* Debug */,
+				8BC49AD51915C04D00287811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC49AD61915C04D00287811 /* Build configuration list for PBXNativeTarget "SweetSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC49AD71915C04D00287811 /* Debug */,
+				8BC49AD81915C04D00287811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC49AD91915C04D00287811 /* Build configuration list for PBXNativeTarget "SweetSpotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC49ADA1915C04D00287811 /* Debug */,
+				8BC49ADB1915C04D00287811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BC49A991915C04D00287811 /* Project object */;
+}
