@@ -9,7 +9,7 @@
     tools:context="com.example.testapp.app.SweetSpotActivity">
 
     <TextView
-        android:text="Haven't used me yet"
+        android:text="0"
         android:id="@+id/scoreCount"
         android:textSize="@dimen/textSize"
         android:layout_width="wrap_content"
@@ -23,5 +23,17 @@
         android:layout_width="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/inRange"
+        android:text="In Range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance: "
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

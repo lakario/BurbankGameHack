@@ -35,6 +35,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.testapp.app.NotifyDemoActivity"
+            android:label="@string/title_activity_notify_demo" >
+        </activity>
     </application>
 
 </manifest>
